@@ -3,7 +3,6 @@ int x, y, d, q;
 
 void setup() {
   size(400,400);
-  //noLoop();
 
 }
 
@@ -23,7 +22,7 @@ void draw() {
   }
   if (x == 0 && y == 0) {
     background(0);
-    delay(100);
+    millis();
   }
     
   //lightning segmant
